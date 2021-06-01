@@ -12,7 +12,7 @@ def monte_carlo(m):
     circle_points= 0
     square_points= 0
   
-    for i in range(m**2):
+    for i in range(m):
         rand_x= random.uniform(0, 1)
         rand_y= random.uniform(0, 1)
         origin_dist= rand_x**2 + rand_y**2
